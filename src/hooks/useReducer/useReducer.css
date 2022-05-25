@@ -1,0 +1,18 @@
+.btn-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  column-gap: 30px;
+}
+
+button {
+  height: 30px;
+}
+
+.App {
+  margin-top: 260px;
+}
+
+p {
+  font-size: 40px;
+}

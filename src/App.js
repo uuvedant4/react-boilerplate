@@ -1,25 +1,24 @@
-import logo from './logo.svg';
-import './App.css';
+import { createContext } from "react";
+import "./App.css";
+import User1 from "./contextApi/user1";
+import UseReducer from "./hooks/useReducer";
+
+export const FirstName = createContext();
+export const Surname = createContext();
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+  // 1. return <UseReducer />;
+  //  ----------------------------------------------------------------------------
+  // 2. return (
+  //   <>
+  //     <FirstName.Provider value={"Vedant"}>
+  //       <Surname.Provider value={"Yetekar"}>
+  //         <User1 />
+  //       </Surname.Provider>
+  //     </FirstName.Provider>
+  //   </>
+  // );
+  //  ----------------------------------------------------------------------------
 }
 
 export default App;
