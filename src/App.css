@@ -40,3 +40,25 @@
     transform: rotate(360deg);
   }
 }
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.btn-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  column-gap: 30px;
+}
+
+p {
+  font-size: 30px;
+}
+
+button {
+  height: 30px;
+}

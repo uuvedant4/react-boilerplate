@@ -1,5 +1,7 @@
-import { createContext } from "react";
 import "./App.css";
+// import { useDispatch, useSelector } from "react-redux";
+// import { INC, DEC } from "../src/redux/actions/index";
+// import { createContext } from "react";
 // import UseState from "./hooks//useState";
 // import User1 from "./contextApi/user1";
 // import User1 from "./hooks/useContext/user1";
@@ -33,6 +35,18 @@ function App() {
   // ------------------------------------------------------------------------------
   // 4. return <UseState />;
   //----------------------------------------------------------------------------
+  //5. const dispatch = useDispatch();
+  // const myState = useSelector((state) => state.counterUpDown);
+  // return (
+  //   <div className="container">
+  //     <p>{myState}</p>
+  //     <div className="btn-container">
+  //       <button onClick={() => dispatch(INC(5))}>INCREMENT</button>
+  //       <button onClick={() => dispatch(DEC(2))}>DECREMENT</button>
+  //     </div>
+  //   </div>
+  // );
+  // ------------------------------------------------------------------------------
 }
 
 export default App;
