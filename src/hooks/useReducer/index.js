@@ -4,29 +4,29 @@ import "./useReducer.css";
 const reducer = (state, action) => {
   switch (action.type) {
     case "INCREMENT":
-      return state + 1;
-    case "DECREMENT":
-      return state > 0 ? state - 1 : state;
+      return { count: state.count + 1, showText: state.showText };
+    case "SHOWTEXT":
+      return { count: state.count, showText: !state.showText };
     default:
       return state;
   }
 };
 
 const UseReducer = () => {
-  const initialState = 0;
-  const [state, dispatch] = useReducer(reducer, initialState);
+  const [state, dispatch] = useReducer(reducer, { count: 0, showText: false });
 
   return (
-    <div className="App">
-      <p>{state}</p>
-      <div className="btn-container">
-        <button onClick={() => dispatch({ type: "INCREMENT" })}>
-          INCREMENT
-        </button>
-        <button onClick={() => dispatch({ type: "DECREMENT" })}>
-          DECREMENT
-        </button>
-      </div>
+    <div className="container">
+      <p>{state.count}</p>
+      <button
+        onClick={() => {
+          dispatch({ type: "INCREMENT" });
+          dispatch({ type: "SHOWTEXT" });
+        }}
+      >
+        Toggle
+      </button>
+      <div>{state.showText && <h3>I am text...</h3>}</div>
     </div>
   );
 };
