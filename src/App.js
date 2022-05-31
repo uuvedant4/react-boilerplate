@@ -1,4 +1,5 @@
 import "./App.css";
+import Joke from "./axios";
 // import { useDispatch, useSelector } from "react-redux";
 // import { INC, DEC } from "../src/redux/actions/index";
 // import { createContext } from "react";
@@ -47,6 +48,8 @@ function App() {
   //   </div>
   // );
   // ------------------------------------------------------------------------------
+
+  return <Joke />;
 }
 
 export default App;
