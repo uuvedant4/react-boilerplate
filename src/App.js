@@ -1,4 +1,5 @@
 import "./App.css";
+// import UseEffect from "./hooks/useEffect";
 // import Joke from "./fetch";
 // import SearchFilter from "./search-filter";
 // import Joke from "./axios";
@@ -55,6 +56,8 @@ function App() {
   // 7. return <Joke />;
   // --------------------------------------------------------------------------------------------
   // 8. return <SearchFilter />;
+  // -----------------------------------------------------------------------------
+  // 9. return <UseEffect />;
 }
 
 export default App;
