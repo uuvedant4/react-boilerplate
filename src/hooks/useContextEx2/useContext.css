@@ -1,0 +1,17 @@
+.login-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 230px;
+}
+
+.login-box input {
+  height: 25px;
+  padding-left: 6px;
+  margin-top: 30px;
+}
+
+.login-box p {
+  font-size: 23px;
+}

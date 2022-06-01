@@ -1,4 +1,5 @@
 import "./App.css";
+// import UseContext from "./hooks/useContextEx2";
 // import UseImperativeHandle from "./hooks/useImperativeHandle";
 // import UseLayoutEffect from "./hooks/useLayoutEffect";
 // import UseRef from "./hooks/useRef/index";
@@ -68,6 +69,8 @@ function App() {
   // ---------------------------------------------------------------------------
   // 12. return <UseImperativeHandle />;
   // ----------------------------------------------------------------------------
+  // 13. return <UseContext />;
+  // ---------------------------------------------------------------------------
 }
 
 export default App;
