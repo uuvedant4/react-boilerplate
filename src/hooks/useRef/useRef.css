@@ -1,0 +1,30 @@
+.App {
+  margin-top: 220px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+
+.container input {
+  padding-left: 6px;
+  outline-style: dashed;
+  height: 25px;
+  margin-right: 5px;
+  outline-color: gray;
+}
+
+.container button {
+  margin-left: 5px;
+}
+
+.App p {
+  font-size: 20px;
+}
