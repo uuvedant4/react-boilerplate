@@ -1,4 +1,5 @@
 import "./App.css";
+// import UseLayoutEffect from "./hooks/useLayoutEffect";
 // import UseRef from "./hooks/useRef/index";
 // import UseEffect from "./hooks/useEffect";
 // import Joke from "./fetch";
@@ -62,7 +63,8 @@ function App() {
   // ----------------------------------------------------------------------------
   // 10. return <UseRef />;
   // ----------------------------------------------------------------------------
-  // 11.
+  // 11. return <UseLayoutEffect />;
+  // ---------------------------------------------------------------------------
 }
 
 export default App;

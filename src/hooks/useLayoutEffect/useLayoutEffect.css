@@ -1,0 +1,12 @@
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 230px;
+}
+
+.container input {
+  outline-style: dashed;
+  height: 30px;
+  width: 350px;
+}
