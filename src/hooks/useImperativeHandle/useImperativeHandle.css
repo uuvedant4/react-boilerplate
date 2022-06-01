@@ -1,0 +1,12 @@
+.App {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  margin-top: 230px;
+}
+
+.App .btn1 {
+  margin-right: 20px;
+  width: 100px;
+}

@@ -1,4 +1,5 @@
 import "./App.css";
+// import UseImperativeHandle from "./hooks/useImperativeHandle";
 // import UseLayoutEffect from "./hooks/useLayoutEffect";
 // import UseRef from "./hooks/useRef/index";
 // import UseEffect from "./hooks/useEffect";
@@ -65,6 +66,8 @@ function App() {
   // ----------------------------------------------------------------------------
   // 11. return <UseLayoutEffect />;
   // ---------------------------------------------------------------------------
+  // 12. return <UseImperativeHandle />;
+  // ----------------------------------------------------------------------------
 }
 
 export default App;
