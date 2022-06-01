@@ -1,5 +1,6 @@
 import "./App.css";
-import Joke from "./fetch";
+// import Joke from "./fetch";
+// import SearchFilter from "./search-filter";
 // import Joke from "./axios";
 // import { useDispatch, useSelector } from "react-redux";
 // import { INC, DEC } from "../src/redux/actions/index";
@@ -51,7 +52,9 @@ function App() {
   // ------------------------------------------------------------------------------
   // 6. return <Joke />;
   // --------------------------------------------------------------------------
-  return <Joke />;
+  // 7. return <Joke />;
+  // --------------------------------------------------------------------------------------------
+  // 8. return <SearchFilter />;
 }
 
 export default App;
