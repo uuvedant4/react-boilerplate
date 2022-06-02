@@ -1,4 +1,5 @@
 import "./App.css";
+// import UseCallback from "./hooks/useCallback";
 // import UseMemo from "./hooks/useMemo";
 // import UseContext from "./hooks/useContextEx2";
 // import UseImperativeHandle from "./hooks/useImperativeHandle";
@@ -73,6 +74,8 @@ function App() {
   // 13. return <UseContext />;
   // ---------------------------------------------------------------------------
   // 14. return <UseMemo />;
+  // ---------------------------------------------------------------------------
+  // 15. return <UseCallback />;
 }
 
 export default App;
