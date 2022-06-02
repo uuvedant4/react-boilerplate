@@ -1,0 +1,30 @@
+.main-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 230px;
+  flex-direction: column;
+}
+
+.memo-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.memo-container button {
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+.memo-container2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.memo-container2 p {
+  margin-left: 37px;
+  margin-right: 37px;
+  font-size: 30px;
+}
